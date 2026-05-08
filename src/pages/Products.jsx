@@ -271,9 +271,9 @@ export default function Products() {
   return (
     <main className="bg-white">
       <Seo
-        title="Flower Bouquet Shop F6 | Best Flower Shop Islamabad"
-        description="Order from a premium flower bouquet shop F6 in Islamabad. Zain Flowers offers custom bouquets, gifts, and same-day flower delivery."
-        path="/products"
+        title="Flower Bouquet Shop F6 | Fresh Bouquets in Islamabad"
+        description="Order from Zain Flowers, a flower bouquet shop in F6 Islamabad offering rose bouquets, birthday flowers, anniversary flowers, gifts, and same-day delivery."
+        path="/flower-bouquets"
       />
       <div className="max-w-7xl mx-auto px-6 py-10">
         {/* Header */}

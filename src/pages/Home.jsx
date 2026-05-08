@@ -16,8 +16,8 @@ export default function Home() {
   return (
     <main className="bg-white">
       <Seo
-        title="Flower Shop Near Me in Islamabad | Zain Flowers F6 Flower Market"
-        description="Zain Flowers is a trusted flower shop near me option in Islamabad. Visit our F6 flower market location for premium bouquets and same-day delivery."
+        title="Flower Shop Islamabad | Zain Flowers F6 Flower Market"
+        description="Zain Flowers is a trusted flower shop Islamabad customers visit in F6 Flower Market for fresh bouquets, custom flowers, gifts, and same-day delivery."
         path="/"
       />
 
@@ -34,8 +34,8 @@ export default function Home() {
             className="max-w-3xl text-white"
           >
             <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold leading-tight">
-              Highly Rated Flower Shop,
-              <span className="block mt-2">Best Quality Flowers in Islamabad</span>
+              Flower Shop in F6 Flower Market
+              <span className="block mt-2">Fresh Flowers & Bouquets in Islamabad</span>
             </h1>
 
             <p className="mt-5 text-sm md:text-base text-white/90">
@@ -55,6 +55,28 @@ export default function Home() {
       </section>
 
       <CategoryGrid />
+
+      <section className="max-w-5xl mx-auto px-6 py-14 text-center">
+        <h2 className="text-2xl md:text-3xl font-bold text-gray-900">
+          Flower Shop Near Me in Islamabad
+        </h2>
+        <p className="mt-4 text-gray-600 leading-relaxed">
+          Looking for a flower shop near me in Islamabad? Zain Flowers is located in
+          F6 Flower Market and offers fresh bouquets, rose arrangements, custom gifts,
+          and same-day delivery in Islamabad and Rawalpindi.
+        </p>
+      </section>
+
+      <section className="max-w-5xl mx-auto px-6 py-12">
+        <h2 className="text-2xl font-bold text-gray-900 text-center">
+          Visit Zain Flowers in F6 Flower Market
+        </h2>
+        <p className="mt-4 text-gray-600 leading-relaxed text-center">
+          Zain Flowers is located at Shop No 11, Super Market F-6/2, School Road,
+          Islamabad. Customers looking for a flower market in Islamabad can visit our
+          F6 location for fresh flowers, bouquets, rose boxes, and gift arrangements.
+        </p>
+      </section>
 
       <section className="max-w-7xl mx-auto px-6 py-16 grid md:grid-cols-3 gap-6">
         {[

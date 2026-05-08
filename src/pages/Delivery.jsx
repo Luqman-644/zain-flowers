@@ -1,5 +1,6 @@
 import { motion } from "motion/react";
 import WhatsappButton from "../Components/WhatsappButton";
+import Seo from "../Components/Seo";
 
 function Delivery() {
   const areas = [
@@ -9,6 +10,11 @@ function Delivery() {
 
   return (
     <main className="bg-white">
+      <Seo
+        title="Flower Delivery Islamabad | Zain Flowers F6 Flower Market"
+        description="Zain Flowers offers same-day flower delivery in Islamabad and Rawalpindi from F6 Flower Market. Order fresh bouquets and gifts on WhatsApp."
+        path="/delivery"
+      />
       <div className="max-w-7xl mx-auto px-6 py-10">
         <motion.div
           initial={{ opacity: 0, y: 18 }}

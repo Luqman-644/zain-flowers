@@ -31,8 +31,8 @@ export default function Contact() {
   return (
     <main className="bg-white">
       <Seo
-        title="Contact Zain Flowers | Flower Shops in Islamabad"
-        description="Contact one of the top flower shops in Islamabad located in F6 flower market. Quick WhatsApp ordering and map directions available."
+        title="Contact Zain Flowers | Flower Shop F6 Islamabad"
+        description="Visit Zain Flowers at Shop No 11, Super Market F-6/2, School Road, Islamabad. A trusted flower shop in F6 Flower Market for bouquets and gifts."
         path="/contact"
       />
       <div className="max-w-7xl mx-auto px-6 py-12">
