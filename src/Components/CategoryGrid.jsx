@@ -17,7 +17,7 @@ const categories = [
   },
   { 
     id: 2, 
-    name: "Anniversery", 
+    name: "Anniversary Flowers", 
     image: c2 
   },
   { 

@@ -1,9 +1,15 @@
 import { motion } from "motion/react";
 import WhatsappButton from "../Components/WhatsappButton";
+import Seo from "../Components/Seo";
 
 export default function About() {
   return (
     <main className="bg-white">
+      <Seo
+        title="About Zain Flowers | Flower Shop in F6 Islamabad"
+        description="Learn about Zain Flowers, a trusted flower shop in F6 Flower Market Islamabad known for premium bouquets, gifts, and reliable service."
+        path="/about"
+      />
       <div className="max-w-5xl mx-auto px-6 py-14">
         {/* Header */}
         <motion.div
