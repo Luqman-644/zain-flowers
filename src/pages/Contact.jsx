@@ -8,6 +8,7 @@ import {
   Instagram,
   ExternalLink,
 } from "lucide-react";
+import Seo from "../Components/Seo";
 
 const BRAND = {
   // ✅ Update these (important)
@@ -29,6 +30,11 @@ export default function Contact() {
 
   return (
     <main className="bg-white">
+      <Seo
+        title="Contact Zain Flowers | Flower Shops in Islamabad"
+        description="Contact one of the top flower shops in Islamabad located in F6 flower market. Quick WhatsApp ordering and map directions available."
+        path="/contact"
+      />
       <div className="max-w-7xl mx-auto px-6 py-12">
         {/* Header */}
         <motion.div
@@ -41,7 +47,7 @@ export default function Contact() {
             Contact Zain Flowers
           </h1>
           <p className="mt-3 text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Fastest way to order is WhatsApp. For visits, directions and details,
+            Need a flower shop near me? Fastest way to order is WhatsApp. For visits, directions and details,
             use the map below.
           </p>
           <div className="mt-6 mx-auto h-[2px] w-24 bg-[#5E6623]" />

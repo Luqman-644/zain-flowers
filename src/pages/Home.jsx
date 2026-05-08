@@ -2,6 +2,7 @@ import { motion } from "motion/react";
 import ImageSlider from "../Components/ImageSlider";
 import CategoryGrid from "../Components/CategoryGrid";
 import WhatsappButton from "../Components/WhatsappButton";
+import Seo from "../Components/Seo";
 
 import h1 from "../assets/hero/h1.png";
 import h2 from "../assets/hero/h2.png";
@@ -14,6 +15,11 @@ export default function Home() {
   
   return (
     <main className="bg-white">
+      <Seo
+        title="Flower Shop Near Me in Islamabad | Zain Flowers F6 Flower Market"
+        description="Zain Flowers is a trusted flower shop near me option in Islamabad. Visit our F6 flower market location for premium bouquets and same-day delivery."
+        path="/"
+      />
 
       {/* HERO BANNER */}
       <section className="relative w-full h-[520px]">
@@ -28,8 +34,8 @@ export default function Home() {
             className="max-w-3xl text-white"
           >
             <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold leading-tight">
-              Highly Rated,
-              <span className="block mt-2">Best Quality Flowers</span>
+              Highly Rated Flower Shop,
+              <span className="block mt-2">Best Quality Flowers in Islamabad</span>
             </h1>
 
             <p className="mt-5 text-sm md:text-base text-white/90">
