@@ -6,6 +6,7 @@ import p1 from "../assets/products/p1.jpg";
 import p2 from "../assets/products/p2.jpg";
 import p3 from "../assets/products/p3.jpg";
 import p4 from "../assets/products/p4.jpg";
+import Seo from "../Components/Seo";
 
 // Put your WhatsApp number here (without +)
 const WHATSAPP_NUMBER = "923107949463";
@@ -269,6 +270,11 @@ export default function Products() {
 
   return (
     <main className="bg-white">
+      <Seo
+        title="Flower Bouquet Shop F6 | Best Flower Shop Islamabad"
+        description="Order from a premium flower bouquet shop F6 in Islamabad. Zain Flowers offers custom bouquets, gifts, and same-day flower delivery."
+        path="/products"
+      />
       <div className="max-w-7xl mx-auto px-6 py-10">
         {/* Header */}
         <motion.div
@@ -278,7 +284,7 @@ export default function Products() {
           className="text-center"
         >
           <h1 className="text-3xl md:text-4xl font-bold text-gray-900">
-            Our Finest
+            Our Finest Flower Bouquets
           </h1>
           <p className="mt-3 text-gray-600 max-w-3xl mx-auto">
             Browse bouquets by category and order instantly on WhatsApp.
